@@ -1,0 +1,22 @@
+1.
+    a. curl http://127.0.0.1:8080/function/slack-request
+    b. echo "" | faas-cli invoke slack-request
+
+2.
+    the json information written in the python file data variable
+
+3.
+    a. curl http://127.0.0.1:8080/function/slack-interactive -d '{"Hello": "COEN241"}'
+    b. echo '{"Hello": "COEN241"}' | faas-cli invoke slack-interactive
+
+4.
+    again the json information written in the python file data variable was printed
+
+5. 
+    with the -d parameter for curl and the pipe("|") with faas-cli
+
+6. 
+    the input will be inside the response variable. putting some logic depending on the response variable and edit the the data will make it response differently to different input.
+
+extra credit.
+    app link: https://api.slack.com/apps/A02LYGMHX51

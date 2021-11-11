@@ -1,0 +1,8 @@
+Fig.1 figlet working: screenshot after each of figlet being called
+Fig.2 journalctl faasd: screenshot after "sudo journalctl -u faasd --lines 40" is called.
+Fig.3 FaaS gateway: screenshot of FaaS gateway after figlet, slack-request and slack-interactive is being deployed
+fig.4 slack-request in terminal: screenshot of calling slack-request inside the terminal
+fig.5 slack-interactive in terminal: screenshot of calling slack-interactive with input '{"HELLO": "COEN241"}' in the terminal
+fig.6 ngrok running: screenshot of ngrok running on local machine after a experimenting within the slack
+fig.7 slack-request in slack: screenshot of function slack-request running inside slack
+fig.8 slack-interactive in slack: screenshot of clicking on buttom in slack-request invoking slack-interactive
